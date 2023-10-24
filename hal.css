@@ -43,10 +43,10 @@ body{
     animation-delay: .8s;
 }
 .greetings > span:nth-child(6){
-    animation-delay: 11s;
+    animation-delay: .9s;
 }
 .greetings > span:nth-child(7){
-    animation-delay: .12s;
+    animation-delay: 1s;
 }
 .greetings > span:nth-child(8){
     animation-delay: 1s;
@@ -58,7 +58,7 @@ body{
     animation-delay: 1s;
 }
 .greetings > span:nth-child(11){
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 
@@ -67,11 +67,23 @@ body{
     margin-bottom: 20px;
 }
 
+button{
+    margin-top:6px;
+    width:50%;
+    background-color:pink;
+    border-radius:100px;
+    border:none;
+}
+
+button:active{
+    background-color:darkpink;
+}
+
 button a{
     text-decoration: none;
     font-size: 1rem;
     color: #111;
-}
+    ;}
 
 @media screen and (max-width:574px){
     .greetings{
@@ -85,12 +97,12 @@ button a{
     }
     
     button a{
-        font-size: .5rem;
+        font-size: 16px;
     }
 }
 @media screen and (min-width: 414px){
     .greetings{
-        font-size: 2rem;
+        font-size: 2.6rem;
         font-weight: 400;
         text-align: center;
     }
